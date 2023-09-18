@@ -11,27 +11,27 @@ const Projects = () => {
   const {id} = useParams()
   const selectedProject = allProjects.projects.filter(project => id == project.id)[0]
   const listTechnologies = selectedProject.technologies.map((tech, index) => (
-    <li className='ml-10 leading-8 text-lg max-[1024px]:text-base max-[530px]:text-xs' key={index}>{tech}</li>
+    <li className='ml-10 leading-8 text-lg max-[1024px]:text-base max-[425px]:text-xs' key={index}>{tech}</li>
   ))
 
   return (
     <>
       <ProjectHeader />
-      <section className='w-screen h-screen flex justify-center items-center'>
-        <div className='w-3/4 min-h-max bg-black bg-opacity-75 p-6 flex flex-col items-center shadow-lg shadow-black rounded-[30px] max-xl:w-5/6'>
-          <h2 className='text-[#1d819b] text-3xl font-bold mb-4 max-[530px]:text-xl'>{selectedProject.title}</h2>
+      <section className='w-screen min-h-screen flex justify-center items-center py-10'>
+        <div className='w-3/4 min-h-max bg-black bg-opacity-75 p-6 flex flex-col items-center shadow-lg shadow-black rounded-[30px]'>
+          <h2 className='text-[#1d819b] text-3xl font-bold mb-4'>{selectedProject.title}</h2>
           <div className="w-full h-full grid cssGrid max-[1024px]:grid-cols-1">
             <div className='flex justify-center items-center '>
-              <img src={selectedProject.source} className='border-4 overflow-hidden h-full object-cover w-full rounded-[30px] border-[#1d819b] max-[1024px]:h-3/5 max-[1024px]:w-3/5 max-[1024px]:mb-4 max-[1024px]:mx-0 max-[530px]:w-4/5' alt="" />
+              <img src={selectedProject.source} className='border-4 overflow-hidden h-full object-cover w-full rounded-[30px] border-[#1d819b]' alt="" />
             </div>
             <div className=' text-white flex flex-col w-[95%] justify-center items-start'>
-              <p className='text-white text-2xl max-[1440px]:text-xl max-[1024px]:text-base max-[530px]:text-sm'>{selectedProject.description}</p>
-              <h2 className='mt-6 text-xl font-semibold text-[#1d819b] max-[1024px]:text-base max-[530px]:text-sm'>Technologies:</h2>
+              <p className='text-white text-2xl max-[1024px]:mt-6 max-[1024px]:text-lg max-[425px]:text-sm'>{selectedProject.description}</p>
+              <h2 className='mt-6 text-xl font-semibold text-[#1d819b] max-[1024px]:text-lg max-[425px]:text-sm'>Technologies:</h2>
               <ul className='list-disc'>
                 {listTechnologies}
               </ul>
               {selectedProject.note &&
-                <p className='mt-6 w-[95%] max-[530px]:text-sm max-[425px]:text-xs'><strong>Note: </strong>{selectedProject.note}</p>
+                <p className='mt-6 w-[95%] text-sm max-[425px]:text-xs'><strong>Note: </strong>{selectedProject.note}</p>
               }
             </div>
           </div>

@@ -45,7 +45,7 @@ const Contact = () => {
       <span className="anchor" id="contact"></span>
       <section className='h-max w-screen flex justify-center items-center flex-col pb-48' data-aos="fade-up" data-aos-once="true">
         <h2 className='sectionHead'>Contact</h2>
-        <div className='w-3/4 h-max bg-black bg-opacity-75 rounded-[30px] shadow-lg shadow-black p-10 flex flex-col items-center max-[430px]:p-5'>
+        <div className='w-3/4 min-h-max bg-black bg-opacity-75 rounded-[30px] shadow-lg shadow-black p-10 flex flex-col items-center max-[430px]:p-5'>
           <div className='grid cssGrid2 w-full h-full max-[950px]:grid-cols-1'>
             <div className='flex justify-start items-start text-white flex-col w-full max-[950px]:mb-4'>
               <div className='flex justify-start items-center w-full mb-4 max-xl:mr-4'>
