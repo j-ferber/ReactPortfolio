@@ -21,7 +21,7 @@ const Projects = () => {
         <div className='w-3/4 min-h-max bg-black bg-opacity-75 p-5 flex flex-col items-center shadow-lg shadow-black rounded-[30px] justify-center'>
           <h2 className='text-[#1d819b] text-3xl font-bold mb-4 max-[475px]:text-2xl w-full text-center'>{selectedProject.title}</h2>
           <div className="w-full h-full grid cssGrid max-[1024px]:grid-cols-1">
-            <div className='flex justify-center items-center w-full max-[1024px]:h-[300px]'>
+            <div className='flex justify-center items-center w-full max-[1024px]:h-[200px]'>
               <img src={selectedProject.source} className='border-4 overflow-hidden h-full object-cover w-full rounded-[30px] border-[#1d819b] max-[1024px]:max-h-[360px] max-[1024px]:max-w-[360px]' alt="" />
             </div>
             <div className='text-white flex flex-col w-full justify-center items-start'>
