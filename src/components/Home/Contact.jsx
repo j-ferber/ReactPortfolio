@@ -29,6 +29,7 @@ const Contact = () => {
 	      console.log('SUCCESS!', response.status, response.text);
         successfulPost()
 	    }, (err) => {
+        console.log(import.meta.env.VITE_PUBLIC_KEY)
 	      console.log('FAILED...', err);
 	    });
   }
