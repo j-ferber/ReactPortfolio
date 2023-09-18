@@ -20,8 +20,11 @@ const Projects = () => {
       <section className='w-screen min-h-screen flex justify-center items-center py-10'>
         <div className='w-3/4 bg-black bg-opacity-75 p-5 flex flex-col items-center shadow-lg shadow-black rounded-[30px] justify-center'>
           <h2 className='text-[#1d819b] text-3xl font-bold mb-4 max-[475px]:text-2xl w-full text-center'>{selectedProject.title}</h2>
-          <div className="w-full h-full grid cssGrid max-[1024px]:grid-cols-1">
-            <div className='text-white flex flex-col w-full justify-center items-start'>
+          <div className="w-full h-full grid cssGrid3 max-[1024px]:grid-cols-1 lg:place-items-center">
+            <div className='flex justify-center items-center w-full max-[1024px]:h-[300px]'>
+              <img src={selectedProject.source} className='border-4 overflow-hidden h-full object-cover w-full rounded-[30px] border-[#1d819b] max-[1024px]:max-h-[360px] max-[1024px]:max-w-[360px]' alt="" />
+            </div>
+            <div className='text-white flex flex-col w-full justify-center items-start lg:ml-4'>
               <p className='text-white text-2xl max-[1024px]:mt-6 max-[1024px]:text-lg max-[425px]:text-sm w-full'>{selectedProject.description}</p>
               <h2 className='mt-6 text-xl font-semibold text-[#1d819b] max-[1024px]:text-lg max-[425px]:text-sm'>Technologies:</h2>
               <ul className='list-disc h-full w-full ml-10'>
