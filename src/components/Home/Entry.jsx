@@ -12,7 +12,7 @@ const Entry = () => {
       <div className='flex w-1/3 mt-3 max-[425px]:w-full max-[425px]:justify-center'>
         <a href="https://github.com/j-ferber" target="_blank"><FaGithub className='icons' /></a>
         <a href="https://www.linkedin.com/in/j-ferber/" target="_blank"><FaLinkedin className='icons'/></a>
-        <a href="https://drive.google.com/file/d/1NEVxV7nJ7rPdKT--j0ma3hqaIMhiCTEB/view?usp=sharing" target="_blank"><BiFile className='icons' /></a>
+        <a href="https://drive.google.com/file/d/1pB3XcBPA1QrA1iC-Q97pF6lDkEohpZST/view?usp=sharing" target="_blank"><BiFile className='icons' /></a>
       </div>
     </div>
   )

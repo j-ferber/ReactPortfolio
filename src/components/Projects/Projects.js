@@ -3,6 +3,7 @@ import JotterLogo from '../../assets/Jotter.png'
 import Food from '../../assets/foodApp.png'
 import ToDo from '../../assets/cat.png'
 import Converter from '../../assets/currency-converter.png'
+import Translator from '../../assets/nauticalTranslator.png'
 
 const projectData = {
   "projects": [
@@ -36,12 +37,12 @@ const projectData = {
       "description": "My most complex JavaScript project at the time. Used more advanced JavaScript functions to create a working to-do list. Also introduced me to local storage."
     }, {
       "id": 4,
-      "title": "Currency Converter",
-      "source": Converter,
-      "github": "https://github.com/j-ferber/JavaScript-Projects/tree/main/Personal/Currency%20Converter",
-      "live": "https://jferber-currency-converter.netlify.app/",
-      "technologies": ["HTML", "CSS", "JavaScript", "OpenCurrency API"],
-      "description": "This was my first project using an API. In this project, I used the Open Exchange Rates API to build a working and up-to-date currency converter."
+      "title": "Nautical Translator",
+      "source": Translator,
+      "github": "https://github.com/Caposto/nautical_translator",
+      "live": "https://nautical-translator.vercel.app/",
+      "technologies": ["React", "Tailwind CSS", "Kintone", "Express.js", "Node.js"],
+      "description": "This project was made in a group of 4 for HackNJIT 2023. Won 'Best use of Kintone' award with over 200+ participants."
     }
   ]
 }
