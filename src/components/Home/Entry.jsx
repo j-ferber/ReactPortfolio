@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 import TypedComponent from './TypedComponent'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import {BiFile} from 'react-icons/bi'

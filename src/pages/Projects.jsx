@@ -1,4 +1,3 @@
-import React from 'react'
 import { useParams } from 'react-router-dom'
 import allProjects from '../components/Projects/Projects'
 import ProjectHeader from '../components/Projects/ProjectHeader'

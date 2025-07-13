@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from '../components/Header'
 import Entry from '../components/Home/Entry'
 import ParticlesComponent from '../components/Home/Particles'

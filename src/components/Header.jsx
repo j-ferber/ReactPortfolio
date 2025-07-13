@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import {useWindowScroll, useWindowSize } from 'react-use'
 import { FaBars } from 'react-icons/fa6'
 

@@ -1,4 +1,3 @@
-import React from 'react'
 import self from '../../assets/self2.jpg'
 import baseball from '../../assets/baseball.png'
 import friendship from '../../assets/friendship.png'

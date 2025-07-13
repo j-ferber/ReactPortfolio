@@ -1,4 +1,3 @@
-import React from 'react'
 import {FaReact, FaNode, FaHtml5, FaCss3, FaPython} from 'react-icons/fa6'
 import {BiLogoTailwindCss, BiLogoMongodb, BiLogoJavascript, BiLogoCPlusPlus} from 'react-icons/bi'
 import {SiExpress} from 'react-icons/si'
